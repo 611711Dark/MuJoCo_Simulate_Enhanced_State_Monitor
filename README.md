@@ -1,6 +1,6 @@
 # MuJoCo Simulate Enhanced - Real-time State Monitor
 
-[English](#english) | [中文](#中文)
+[English](#english) | [中文](README_cn.md)
 
 ---
 
