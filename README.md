@@ -65,6 +65,8 @@ State (qpos/qvel)
 │   └── 6:av,0.045     # Joint angular velocity
 ```
 
+![State Output Example](state_output_example.png)
+
 ### Supported Joint Types
 
 - **Free Joints**: Full 6DOF with quaternion orientation
