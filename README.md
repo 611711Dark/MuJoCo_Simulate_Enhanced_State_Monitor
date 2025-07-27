@@ -83,4 +83,19 @@ State (qpos/qvel)
 - **Platform**: Cross-platform (Windows, Linux, macOS)
 - **Models**: Compatible with all MuJoCo model formats
 
+
+### Installation Instructions
+
+1.  Download `simulate.cc` and `simulate.h` files.
+2.  Replace the corresponding files in the MuJoCo source code.
+3.  Recompile the MuJoCo simulate application.
+4.  Enjoy enhanced state monitoring!
+
+### Contribution
+
+Feel free to submit Issues and Pull Requests to improve this project.
+
 ---
+
+**Note**: This enhanced version was developed and tested based on MuJoCo 3.3.4. For other versions, appropriate adjustments may be required.
+
