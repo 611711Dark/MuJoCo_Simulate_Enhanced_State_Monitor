@@ -56,6 +56,11 @@ State (qpos/qvel)
 ├── 关节名_qvel
 │   └── 6:av,0.045     # 关节角速度
 ```
+![State Output Example](state_output_example01.png)
+
+
+
+![State Output Example](state_output_example02.gif)
 
 ### 支持的关节类型
 
