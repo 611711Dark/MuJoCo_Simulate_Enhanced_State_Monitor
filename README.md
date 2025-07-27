@@ -65,7 +65,11 @@ State (qpos/qvel)
 │   └── 6:av,0.045     # Joint angular velocity
 ```
 
-![State Output Example](state_output_example.png)
+![State Output Example](state_output_example01.png)
+
+
+
+![State Output Example](state_output_example02.gif)
 
 ### Supported Joint Types
 
