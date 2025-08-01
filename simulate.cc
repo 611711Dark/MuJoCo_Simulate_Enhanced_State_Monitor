@@ -1168,18 +1168,18 @@ static std::string GetStateDescriptor(int joint_type, int relative_index, bool i
       if (is_qvel) {
         if (relative_index >= 0 && relative_index < 3) {
           char components[] = {'x', 'y', 'z'};
-          return std::string("av") + components[relative_index];
+          return std::string("v") + components[relative_index];
         } else if (relative_index >= 3 && relative_index < 6) {
           char components[] = {'x', 'y', 'z'};
-          return std::string("v") + components[relative_index - 3];
+          return std::string("av") + components[relative_index - 3];
         }
       } else { // qpos
-        if (relative_index >= 0 && relative_index < 4) {
-          char components[] = {'w', 'x', 'y', 'z'};
-          return std::string("q") + components[relative_index];
-        } else if (relative_index >= 4 && relative_index < 7) {
+        if (relative_index >= 0 && relative_index < 3) {
           char components[] = {'x', 'y', 'z'};
-          return std::string("p") + components[relative_index - 4];
+          return std::string("p") + components[relative_index];
+        } else if (relative_index >= 3 && relative_index < 7) {
+          char components[] = {'w', 'x', 'y', 'z'};
+          return std::string("q") + components[relative_index - 3];
         }
       }
       break;
